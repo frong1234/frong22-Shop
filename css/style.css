@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #4C94F6;
+    text-align: center;
+
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body html
+{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Centers the #p div horizontally */
+    align-items: center;      /* Centers the #p div vertically */
+}
+
+.logo{
+    text-align: center;
+    font-size: 105px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    letter-spacing: -12px;
+    
+
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+#black{
+    color: black;
+    padding-left: 5px;
+    letter-spacing: -9px;
+}
+
+#coverLogo{
+    text-align: center;
+    width: 500px ;
+    height: 155px;
+    margin: auto;
+    padding: 10px 11px 10px 3px;
+    border: 5px solid #ffffff;
+}
+
+
+.menubar{
+list-style-type: none;
+padding: 10px;
+margin: 0;
+background-color: #F6DB34;
+text-align: center;
+border: 1px solid #ccc
+
+}
+
+.menubar li{
+display: inline-block;
+
+
+}
+
+.menubar a{
+    margin-right: 20px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.menubar a:hover
+{
+    color: red;
+}
+
+#video{
+    background-color: #4C69F5;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    border: 3px solid #F6DB34;
+    
+}
+
+#tab{
+    padding: 20px;
+    background-color: #F6DB34;
+}
+
+#h2{
+    margin: 10px;
+    margin-left: 70px;
+    padding: 30px;
+    font-size: 45px;
+    text-align: left;
+    color: #ffffff;
+}
+#sale{
+    color : red;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav img{
+    width: 300px;
+    border: 3px solid #F6DB34;
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration: none;
+
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: #F6DB34;
+}
+
+#p {
+    padding: 50px 25px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;       /* Centers the text inside the <p> tag */
+
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slidbar{
+    width: 500px;
+    height: 600;
+    float: right;
+    background-color: #F6DB34;
+    
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.slidbar a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slidbar a:hover{
+    color: #ffffff;
+}
+
+.slidbar ul{
+    list-style-type: none;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.slidbar li{
+    margin-top: 5px;
+    padding: 1px;
+}
+
+.slidbar img{
+    width: 300px;
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+.column p{
+    padding: 40px;
+}
+
+#contract{
+    padding: 1px;
+    font-weight: bold;
+}
